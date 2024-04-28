@@ -1,0 +1,25 @@
+div{
+    margin: auto;
+    padding: 50px;
+}
+
+.parent{
+    height: 400px;
+    width: 450px;
+    background-color: fuchsia;
+    
+
+}
+.child{
+    height: 300px;
+    width: 350px;
+    background-color:aqua;
+    
+    
+}
+.grand-child{
+    height: 200px;
+    width: 250px;
+    background-color:rgb(0, 255, 76);
+
+}
