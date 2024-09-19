@@ -33,7 +33,7 @@ function uploadFile(file){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             if(file){
-                resolve(file2)
+                resolve(file)
             }
             else 
                 reject("L lag gaye system ke")

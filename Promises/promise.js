@@ -1,6 +1,5 @@
 let isRaining=true;
 
-
 let answer = new Promise((resolve,reject)=>{
 
     console.log("Start")
@@ -13,7 +12,6 @@ let answer = new Promise((resolve,reject)=>{
     else reject();
     console.log("End")
 })
-
 
 answer
 .then(()=>console.log("Stay in home"))
